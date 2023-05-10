@@ -2,8 +2,8 @@ import cv2
 import streamlit as st
 import time
 
-st.title('Motion Detector')
-start = st.button('start camera')
+st.title('Webcam Viewer')
+start = st.button('Start camera')
 
 if start:
     streamlit_image = st.image([])
